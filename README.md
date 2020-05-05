@@ -1,14 +1,29 @@
-## Shopping List Starter
+## Andrea's Bookmark App
 
-Created for the Thinkful EI Program.
+This is an application to collect your favorite bookmarks.
 
-### Instructions
+Live link: https://thinkful-ei-orka.github.io/bookmark-app-sherry/
 
-1. Clone this project onto your local machine
-2. Create a new repo in your cohort organization prefixed `module-ex-` and each of your names (e.g. `module-ex-rich-mary`)
-3. Inside your local project directory, change the remote origin to your new remote repo with the following command:
-    * `git remote set-url origin [new-repo-url]` (do NOT enter the square brackets, just the repo url)
-4. If you entered the command correctly, then typing `git remote -v` should show the new repo url connected to `origin`
-5. Push to the new repo: `git push -u origin master`
-6. Begin the day's assignment as provided in the curriculum
+### User Stories completed:
 
+I can add bookmarks to my bookmark list. Bookmarks contain:
+
+title
+url link
+description
+rating (1-5)
+
+I can see a list of my bookmarks when I first open the app
+
+All bookmarks in the list default to a "condensed" view showing only title and rating
+I can click on a bookmark to display the "detailed" view
+
+Detailed view expands to additionally display description and a "Visit Site" link
+I can remove bookmarks from my bookmark list
+
+I receive appropriate feedback when I cannot submit a bookmark
+
+Check all validations in the API documentation (e.g. title and url field required)
+I can select from a dropdown (a select element) a "minimum rating" to filter the list by all bookmarks rated at or above the chosen selection
+
+(Extension feature - optional) I can edit the rating and description of a bookmark in my list
